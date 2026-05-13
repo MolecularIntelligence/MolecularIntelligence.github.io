@@ -26,7 +26,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run dev # This runs your build script in package.json
+        run: npm run build # This runs your build script in package.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
