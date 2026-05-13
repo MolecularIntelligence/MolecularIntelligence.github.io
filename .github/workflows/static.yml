@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Change "dist" to "build" or "." depending on your project
-          path: './build' 
+          path: './dist' 
 
       - name: Deploy to GitHub Pages
         id: deployment
